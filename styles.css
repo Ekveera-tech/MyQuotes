@@ -1,0 +1,163 @@
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body{
+  width:100%;
+  min-height:100%;
+}
+#loginAlert{
+   display:none;
+}
+.mainContainer{
+   padding:40px;
+}
+.time{
+  color:#D3D3D3;
+}
+.tweet{
+    border:1px solid grey;
+    padding:50px
+    border-radius:5px;
+    margin:5px;
+
+}
+textarea{
+   height:70px;
+}
+#postComment{
+    height:100px;
+}
+.card{
+   margin:10px;
+   border-radius:6px;
+
+}
+#tweetContent{
+    width:100%;
+}
+#search{
+     margin:5px;
+}
+.content{
+   margin:30px;
+}
+#tweetSuccess {
+    
+    display:none;
+    
+}
+
+#tweetFail {
+    
+    display:none;
+    
+}
+#statusSuccess {
+    
+    display:none;
+    
+}
+.commentSuccess {
+    
+    display:none;
+    
+}
+
+#statusFail {
+    
+    display:none;
+    
+}
+
+.commentFail {
+    
+    display:none;
+    
+}
+
+
+
+#followapp{
+   float:right;
+   position:relative;
+   top:-20px;
+   left:10px;
+   font-size:18px;
+}
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+   /* Vertically center the text there */
+  line-height:60px;
+  background-color: #f5f5f5;
+}
+
+nav{
+position:fixed;
+top:0;
+}
+
+#textarea1{
+  
+position:relative;
+
+}
+
+#textarea1 button{
+   position:absolute; 
+   top:0px;
+   right:1px;
+}
+
+.toggleLike{
+  font-size:36px;
+
+}
+
+.grey{
+   color:#808080;
+}
+
+#LC{
+   position:relative;
+   top:-7px;
+}
+
+.star{
+      text-decoration: none;
+      color: black; 
+      font-size: 160%; 
+}
+
+.Like{
+   font-size:60%;
+
+}
+
+.bold {
+     font-weight:bold;
+}
+#welcome{
+
+   position:relative;
+   top:50px;
+}
+.dropdown{
+   position:relative;
+   top:-100px;
+   left:350px;
+   max-height:100px;
+   height:10%;
+
+}
+
+.dropdown-menu {
+   width: 50px !important;
+   height: 50px !important;
+}
