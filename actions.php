@@ -8,7 +8,7 @@ if(isset($_GET['action'])){
         
         if (!$_POST['email']) {
             
-            $error = "An email address is required.";
+            $error = "Email address required.";
             
         } 
 		else if (!$_POST['password']) {
